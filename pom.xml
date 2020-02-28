@@ -11,6 +11,7 @@
 	<groupId>home.javacoding</groupId>
 	<artifactId>pet-clinic-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>pet-clinic-app</name>
 	<description>Pet Clinic project</description>
 
@@ -79,4 +80,8 @@
 		</plugins>
 	</build>
 
+	<modules>
+		<module>pet-clinic-data</module>
+		<module>pat-clinic-web</module>
+	</modules>
 </project>
